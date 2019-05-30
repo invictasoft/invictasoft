@@ -267,6 +267,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .navbar-brand .logo, .navbar-brand .logo-alt {
     max-height: 50px;
     display: block;
+	font-family: 'Aharoni';
+    font-size: 30px;
+    margin-top: 10px;
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
@@ -1455,6 +1458,8 @@ header {
 .footer-logo {
     text-align: center;
     margin-bottom: 40px;
+	font-family: 'Aharoni';
+    font-size: 30px;
 }
 
 .footer-logo>a>img {
@@ -1750,4 +1755,15 @@ header {
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+
+@import url(https://db.onlinewebfonts.com/c/22db60d19480ba0274c9eb6ba877ea9b?family=Aharoni);
+
+@font-face {font-family: "Aharoni";
+    src: url("https://db.onlinewebfonts.com/t/22db60d19480ba0274c9eb6ba877ea9b.eot");
+    src: url("https://db.onlinewebfonts.com/t/22db60d19480ba0274c9eb6ba877ea9b.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/22db60d19480ba0274c9eb6ba877ea9b.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/22db60d19480ba0274c9eb6ba877ea9b.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/22db60d19480ba0274c9eb6ba877ea9b.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/22db60d19480ba0274c9eb6ba877ea9b.svg#Aharoni") format("svg");
 }
